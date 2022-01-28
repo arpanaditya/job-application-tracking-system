@@ -1,0 +1,120 @@
+ @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Roboto+Mono&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+ * {
+     margin: 0;
+     padding: 0;
+     /* background-color: #fff; */
+ }
+ 
+ :root {
+     --bold: nunito, helveticaneue, helvetica neue, Helvetica, Arial, sans-serif;
+     --light: 'Roboto Mono', monospace;
+ }
+ 
+ .container {
+     /* margin: 0; */
+     background-color: rgb(255, 251, 251);
+     padding-bottom: 10px;
+ }
+ 
+ .header-container {
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     /* width: 100%; */
+     margin: 10px 30px;
+     margin-top: 0;
+ }
+ 
+ .header-container h1 {
+     font-family: var(--light);
+ }
+ 
+ button a {
+     text-decoration: none;
+     color: #fff;
+ }
+ 
+ .list-jobs {
+     display: flex;
+     background-color: #fff;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width: 43%;
+     box-shadow: 0px 0px 7px rgb(250, 227, 227);
+     margin: auto;
+ }
+ 
+ .job {
+     border-bottom: 1px solid rgb(228 228 228);
+     padding: 10px 30px;
+ }
+ 
+ .exp {
+     display: inline;
+     font-family: var(--light);
+ }
+ 
+ .loc {
+     display: inline;
+     font-family: var(--light);
+ }
+ 
+ button {
+     display: block;
+ }
+ 
+ .job-title {
+     font-weight: bold;
+     font-family: var(--light);
+ }
+ 
+ .job-type {
+     color: #777;
+     font-family: var(--bold);
+ }
+ 
+ .btns {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+     width: 40%;
+     margin-top: 2%;
+ }
+ 
+ .btn {
+     background-color: #66676b;
+     top: 0;
+     padding: 7px 20px;
+     line-height: 24px;
+     color: #fff;
+     position: relative;
+     font-size: 16px;
+     font-weight: 500;
+     display: inline-block;
+     transition: all .2s ease-in-out;
+     cursor: pointer;
+     overflow: hidden;
+     border: none;
+     border-radius: 50px;
+     /* margin: 10px; */
+     /* box-shadow: 0 4px 12px rgb(102 103 107 / 15%); */
+     box-shadow: 0 4px 12px rgb(42 65 232 / 15%);
+     font-family: var(--bold);
+ }
+ 
+ .jobdesc-header {
+     font-family: var(--light);
+ }
+ 
+ .job-desc {
+     font-family: var(--light);
+     color: #66676b;
+     margin-bottom: 10px;
+ }
+ 
+ span {
+     font-family: var(--bold);
+ }

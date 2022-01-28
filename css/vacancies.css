@@ -1,0 +1,23 @@
+.vacancies {
+    display: flex;
+    flex-direction: row;
+}
+
+h2 {
+    text-align: center;
+}
+
+.vacancies {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.vacancy {
+    padding: 5px 10px;
+    background-color: gray;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    color: #fff;
+}
